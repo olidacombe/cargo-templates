@@ -1,0 +1,10 @@
+[package]
+name = "{{project-name}}"
+description = "{{description}}"
+version = "0.1.0"
+edition = "2021"
+authors = ["Oli Dacombe <olidacombe@gmail.com>"]
+license = "MIT OR Apache-2.0"
+
+[dependencies]
+tracing = "0.1.34"
