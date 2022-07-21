@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       PROJECT_NAME: nice-crate
-      CARGO_GENERATE_DESCRIPTION: a very nice crate
+      CARGO_GENERATE_VALUE_DESCRIPTION: a very nice crate
     steps:
       - uses: actions/checkout@v2
       - uses: cargo-generate/cargo-generate-action@v0.11.0
