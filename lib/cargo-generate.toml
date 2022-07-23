@@ -1,3 +1,16 @@
 [placeholders.description]
 type = "string"
 prompt = "Description?"
+
+[placeholders.hooks]
+type = "bool"
+prompt = "Generate hooks?"
+default = true
+
+[placeholders.workflows]
+type = "bool"
+prompt = "Generate GitHub Actions workflows?"
+default = true
+
+[conditional.'!hooks']
+ignore = [".cargo-husky"]
