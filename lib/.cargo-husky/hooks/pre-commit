@@ -7,9 +7,12 @@ echo '+cargo fmt'
 cargo fmt
 echo "$FILES" | xargs git add
 
-echo '+cargo test'
-cargo test
-echo '+cargo check'
-cargo check
-echo '+cargo clippy -- -D warnings'
-cargo clippy -- -D warnings
+#echo '+cargo test'
+#cargo test
+#echo '+cargo check'
+#cargo check
+#echo '+cargo clippy -- -D warnings'
+#cargo clippy -- -D warnings
+
+make readme
+git add README.md
