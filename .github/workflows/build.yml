@@ -12,10 +12,16 @@ on:
 
 jobs:
   build:
+    strategy:
+      matrix:
+        hooks: [false, true]
+        workflows: [false, true]
     runs-on: ubuntu-latest
     env:
       PROJECT_NAME: nice-crate
       CARGO_GENERATE_VALUE_DESCRIPTION: a very nice crate
+      CARGO_GENERATE_VALUE_HOOKS: ${{ matrix.hooks }}
+      CARGO_GENERATE_VALUE_WORKFLOWS: ${{ matrix.workflows }}
     steps:
       - uses: actions/checkout@v2
       - uses: cargo-generate/cargo-generate-action@v0.11.0
