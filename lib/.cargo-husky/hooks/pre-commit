@@ -14,5 +14,6 @@ echo "$FILES" | xargs git add
 #echo '+cargo clippy -- -D warnings'
 #cargo clippy -- -D warnings
 
-make readme
+echo "+cargo readme > README.md"
+cargo readme > README.md
 git add README.md
