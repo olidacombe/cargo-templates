@@ -14,3 +14,6 @@ default = true
 
 [conditional.'!hooks']
 ignore = [".cargo-husky"]
+
+[conditional.'!workflows']
+ignore = [".github"]
