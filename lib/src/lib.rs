@@ -1,3 +1,5 @@
+#![deny(missing_docs)]
+
 #[cfg(test)]
 mod tests {
     #[test]
