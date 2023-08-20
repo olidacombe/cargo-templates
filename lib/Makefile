@@ -1,7 +1,7 @@
 .PHONY: init readme
 
 init:
-	cargo install cargo-readme
+	cargo install cargo-rdme
 
 readme:
-	cargo readme > README.md
+	cargo rdme --force
