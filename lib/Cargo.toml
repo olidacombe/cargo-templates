@@ -2,12 +2,12 @@
 authors = ["{{authors}}"]
 name = "{{project-name}}"
 description = "{{description}}"
-documentation = "https://docs.rs/{{username}}/latest/{{project-name}}/"
+documentation = "https://docs.rs/{{project-name}}/latest/{{project-name}}/"
 version = "0.1.0"
 edition = "2021"
 license = "MIT OR Apache-2.0"
 repository = "https://github.com/{{username}}/{{project-name}}"
-rust-version = "1.65.0"
+rust-version = "1.72.0"
 
 [dependencies]
 

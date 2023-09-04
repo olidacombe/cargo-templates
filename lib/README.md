@@ -2,7 +2,7 @@
 [![Crates.io](https://img.shields.io/crates/v/{{project-name}})](https://crates.io/crates/{{project-name}})
 [![Docs.rs](https://docs.rs/{{project-name}}/badge.svg)](https://docs.rs/{{project-name}})
 {% if workflows %}
-![Rust](https://github.com/{{username}}/{{project-name}}/actions/workflows/main.yml/badge.svg)
+![Rust](https://github.com/{{username}}/{{project-name}}/actions/workflows/general.yml/badge.svg)
 {% endif %}
 
 # `{{projoct-name}}`
