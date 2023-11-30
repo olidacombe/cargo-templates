@@ -10,13 +10,11 @@ repository = "https://github.com/{{username}}/{{project-name}}"
 rust-version = "1.72.0"
 
 [dependencies]
-
-
-{% if hooks %}
 tracing = "0.1.40"
-[dev-dependencies.cargo-husky]
+{% if hooks %}
 
-{% endif %}
+[dev-dependencies.cargo-husky]
 version = "1.5.0"
 default-features = false
 features = ["user-hooks"]
+{% endif %}
