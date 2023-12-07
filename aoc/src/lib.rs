@@ -14,7 +14,7 @@ mod test {
         "};
         assert_eq!(
             {{main-function}}(example.lines().map(String::from)),
-            {{expected}}
+            {{expected-value}}
         );
     }
 }
