@@ -1,0 +1,17 @@
+[hooks]
+init = ["init-script.rhai"]
+#pre = ["pre-script.rhai"]
+#post = [...]
+
+[placeholders.main-function]
+type = "string"
+prompt = "Main function name"
+
+[placeholders.main-function-return-type]
+type = "string"
+prompt = "Main function return type"
+default = "i64"
+
+[placeholders.expected-value]
+type = "string"
+prompt = "Expected return value of example"
