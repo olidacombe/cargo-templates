@@ -1,6 +1,6 @@
 use std::io;
 
-use aoc{{year}}_{{day}}_{{round}}::{{{main-function}}, Result};
+use aoc{{year}}_{{day}}_{{round}}::{% raw %}{{% endraw %}{{main-function}}, Result};
 
 fn main() -> Result<()> {
     tracing_subscriber::fmt::init();
