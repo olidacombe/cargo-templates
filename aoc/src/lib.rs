@@ -9,7 +9,7 @@ pub enum Error {
     Parse(#[from] parse::Error),
 }
 
-pub fn {{main-function}}(mut it: impl Iterator<Item = String>) -> Result<{{main-function-return-type}}> {
+pub fn {{main-function}}(it: impl Iterator<Item = String>) -> Result<{{main-function-return-type}}> {
     Ok({{main-function-return-type}}::default())
 }
 
